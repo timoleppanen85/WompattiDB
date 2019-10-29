@@ -1,7 +1,7 @@
 ﻿CREATE TABLE [dbo].[Answer]
 (
 	[Id] BIGINT NOT NULL PRIMARY KEY IDENTITY, 
-    [Answer] NVARCHAR(MAX) NOT NULL, 
+    [Answer] INT NOT NULL, 
     [ExtraText] NVARCHAR(MAX) NULL, 
     [AnswerSet] INT NOT NULL, 
     [QuestionId] BIGINT NOT NULL, 
